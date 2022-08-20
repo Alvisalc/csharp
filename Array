@@ -1,0 +1,17 @@
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] luckyNumbers = { 4, 8, 15, 16, 22, 24 };
+            string[] friends = new string[5];
+            friends[0] = "Alvis";
+            friends[3] = "Kelly";
+
+            Console.WriteLine(luckyNumbers[5]);
+            Console.WriteLine(friends[3]);
+
+            Console.ReadLine();
+        }
+    }
+}
