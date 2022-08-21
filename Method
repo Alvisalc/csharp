@@ -1,33 +1,20 @@
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            SayHi();
-            Console.ReadLine();
-        }
-
-        static void SayHi()
-        {
-            Console.WriteLine("Hello User");
-        }
-    }
-}
 
 {
     class Program
     {
         static void Main(string[] args)
         {
-            SayHi("Mike");
-            SayHi("John");
-            SayHi("Peter");
+            SayHi("Mike", 12);
+            SayHi("Peter", 15);
+            SayHi("Mary", 20);
             Console.ReadLine();
         }
 
-        static void SayHi(string name)
+        static void SayHi(string name, int age)
         {
-            Console.WriteLine("Hello " + name);
+            Console.WriteLine("Hello " + name + " you are " + age);
         }
     }
 }
+
+
